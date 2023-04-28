@@ -12,11 +12,6 @@
 
 - Por fim, a URL é aberta no navegador padrão do sistema, para que o usuário possa acessar o servidor local remotamente.
 
-# chmod +x localtunnel.sh. 
-
-- Em seguida, basta executá-lo com o comando ./localtunnel.sh. 
-
-
 - É necessário ter o localtunnel instalado no sistema para que o script funcione corretamente:
 
 - Abra o terminal e atualize o gerenciador de pacotes com o seguinte comando:
@@ -37,3 +32,9 @@ Esses comandos exibirão a versão do Node.js e do npm instalados em seu sistema
 - Por Fim:
 
 # npm install -g localtunnel
+
+- Em seguida, basta executá-lo com o comando:
+
+# chmod +x localtunnel.sh
+# ./localtunnel.sh
+
