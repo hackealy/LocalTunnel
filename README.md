@@ -12,7 +12,7 @@
 
 - Por fim, a URL é aberta no navegador padrão do sistema, para que o usuário possa acessar o servidor local remotamente.
 
-chmod +x localtunnel.sh. 
+# chmod +x localtunnel.sh. 
 
 - Em seguida, basta executá-lo com o comando ./localtunnel.sh. 
 
@@ -21,19 +21,19 @@ chmod +x localtunnel.sh.
 
 - Abra o terminal e atualize o gerenciador de pacotes com o seguinte comando:
 
-- sudo apt-get update
+# sudo apt-get update
 
 - Em seguida, instale o Node.js e o gerenciador de pacotes npm com o seguinte comando:
 
-sudo apt-get install nodejs npm
+# sudo apt-get install nodejs npm
 
 - Verifique se a instalação foi concluída com sucesso digitando os seguintes comandos:
-- 
-node -v
-npm -v
+
+# node -v
+# npm -v
 
 Esses comandos exibirão a versão do Node.js e do npm instalados em seu sistema.
 
 - Por Fim:
 
-npm install -g localtunnel
+# npm install -g localtunnel
